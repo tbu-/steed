@@ -141,6 +141,8 @@ pub use std_unicode::char;
 #[macro_use]
 mod macros;
 
+#[cfg(feature = "libtest-shim")]
+pub mod env;
 pub mod sync;
 
 // Rust 1.15.0

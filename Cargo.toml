@@ -24,6 +24,7 @@ git = "https://github.com/rust-lang-nursery/compiler-builtins"
 
 [features]
 default = ["ralloc"]
+libtest-shim = []
 
 [profile.release]
 lto = true
